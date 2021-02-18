@@ -1,0 +1,22 @@
+
+<div  class="card" style="width: 500px; height: 200px;" id='{{id}}' >
+    <div class="card-body">
+      <div class="search" *ngIf='search==id'>זה המטבע שחיפשת</div>
+      <h4 class="card-title"    >{{id}}</h4>  
+     
+     
+      <label   class="switch">
+        <input (click)='switch() ' type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <span *ngIf= 'counter ==1 ' >  {{error}}</span> 
+      <div> <h6 class="card-text" *ngIf='inpoD' >{{inpoD}} $ </h6></div>
+     <div> <h6 class="card-text" *ngIf='inpoD' >{{inpoE}} &euro; 	 </h6></div>
+     <div> <h6 class="card-text" *ngIf='inpoD' > {{inpoS}} &#8362;	 </h6></div>
+     <div> <h6 class="card-text" *ngIf='inpoD' > {{image}}	 </h6></div>
+     <p></p>
+      <button  class="btn btn-primary"  (click)='get()'>more inpo </button>
+      
+    </div>
+  </div>
+ 

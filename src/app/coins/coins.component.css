@@ -1,0 +1,18 @@
+/* ul{
+  width:  20%;
+} */
+.coins{
+    float: left;
+
+}
+.container-fluid{
+  width: 300px;
+  float: right;
+}
+#abc{
+  width: 100%;
+}
+.ng{
+  float: right;
+  width: 210px;
+}
